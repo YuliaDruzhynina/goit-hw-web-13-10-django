@@ -1,0 +1,25 @@
+MONGO_URI = mongodb://localhost:27017
+MONGO_DB = hw
+SECRET_KEY = 'secret key'
+DEBUG = True
+ALLOWED_HOSTS = localhost
+
+SQL_DB_ENGINE = django.db.backends.sqlite3
+SQL_DB_NAME = db.name
+
+PG_ENGINE = django.db.backends.postgresql
+PG_NAME = name
+PG_USER = user
+PG_PASSWORD = password
+postgresql_HOST = localhost
+PG_PORT = 5432
+
+EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+EMAIL_HOST='smtp.meta.ua'
+EMAIL_PORT=465
+EMAIL_STARTTLS=False
+EMAIL_USE_SSL=True
+EMAIL_USE_TLS=False
+EMAIL_HOST_USER='poshta@meta.ua'
+EMAIL_HOST_PASSWORD='password'
+DEFAULT_FROM_EMAIL='poshta@meta.ua'
