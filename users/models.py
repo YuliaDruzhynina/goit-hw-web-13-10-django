@@ -24,4 +24,4 @@ class Profile(models.Model):
             img.thumbnail(new_img)
             img.save(self.avatar.path)
 
-
+        #img.close()
